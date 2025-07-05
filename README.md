@@ -20,6 +20,10 @@ parkinsons-prediction-app/
 ├── scaler.pkl                  # StandardScaler for preprocessing
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation
+├── screenshots/                # Streamlit app screenshots
+│   ├── app1.png
+│   ├── app2.png
+│   └── app3.png
 ```
 
 ---
@@ -89,8 +93,16 @@ streamlit run app.py
 - Feature importance chart
 - Patient-friendly result explanation
 
-![Streamlit Screenshot 1](screenshots/app1.png)
-![Streamlit Screenshot 2](screenshots/app2.png)
+### 🖼️ App Preview
+
+#### 1. Input Form
+![Input](screenshots/app1.png)
+
+#### 2. Prediction Result and Feature Importance Chart
+![Prediction](screenshots/app2.png)
+
+#### 3. Next Steps
+![Next Steps](screenshots/app3.png)
 
 ---
 
